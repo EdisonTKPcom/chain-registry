@@ -7,28 +7,28 @@
   "pretty_name": "wpd-l2a-mainnet-1",
   "chain_type": "cosmos",
   "chain_id": "wpd-l2a-mainnet-1",
-  "bech32_prefix": "leea",
+  "bech32_prefix": "poa",
   "bech32_config": {
-    "bech32PrefixAccAddr": "leea",
-    "bech32PrefixAccPub": "leeapub",
-    "bech32PrefixValAddr": "leeavaloper",
-    "bech32PrefixValPub": "leeavaloperpub",
-    "bech32PrefixConsAddr": "leeavalcons",
-    "bech32PrefixConsPub": "leeavalconspub"
+    "bech32PrefixAccAddr": "poa",
+    "bech32PrefixAccPub": "poapub",
+    "bech32PrefixValAddr": "poavaloper",
+    "bech32PrefixValPub": "poavaloperpub",
+    "bech32PrefixConsAddr": "poavalcons",
+    "bech32PrefixConsPub": "poavalconspub"
   },
   "slip44": 118,
   "description": "Community and social development. Basic needs, services, and governance.",
   "fees": {
     "fee_tokens": [
       {
-        "denom": "leea"
+        "denom": "poatoken"
       }
     ]
   },
   "staking": {
     "staking_tokens": [
       {
-        "denom": "leea"
+        "denom": "poatoken"
       }
     ],
     "lock_duration": {
